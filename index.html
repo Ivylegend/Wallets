@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Whitelist Network</title>
-<link rel="stylesheet" href="style2.css"> </head>
-<body>
-  <div class="word-grid-container">
-    <form>
-      <h1>Whitelist Network</h1>
-      <h2>connect your wallet</h2>
-      <div class="word-container" id="form">
-        <input type="text" class="word-box" placeholder=" 1. ">
-        <input type="text" class="word-box" disabled placeholder=" 2. ">
-        <input type="text" class="word-box" disabled placeholder=" 3. ">
-        <input type="text" class="word-box" disabled placeholder=" 4. ">
-        <input type="text" class="word-box" disabled placeholder=" 5. ">
-        <input type="text" class="word-box" disabled placeholder=" 6. ">
-        <input type="text" class="word-box" disabled placeholder=" 7. ">
-        <input type="text" class="word-box" disabled placeholder=" 8. ">
-        <input type="text" class="word-box" disabled placeholder=" 9. ">
-        <input type="text" class="word-box" disabled placeholder=" 10.">
-        <input type="text" class="word-box" disabled placeholder=" 11.">
-        <input type="text" class="word-box" disabled placeholder=" 12.">
+  <head>
+    <title>Whitelist Network</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="image.png" alt="logo" />
+      <a href="/connectWallet.html"
+        ><button class="btn">Connect Wallet</button></a
+      >
+    </nav>
+    <main>
+      <div class="hero">
+        <h1 class="header">Link your DApps to your wallets</h1>
+        <p>
+          DappsConnects is an open protocol that lets users connect their mobile
+          crypto wallets to your DApp.
+        </p>
       </div>
-      <button disabled id="submit-button" type="submit">Connect</button>
-    </form>
-  </div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-  <script src="firebaseConfig.js"></script>
-  <!-- <script src="script2.js"></script>  -->
-</body>
+      <div class="about">
+        <h2>About & How it works here</h2>
+        <div class="about-box">
+          <span>
+            <p class="mini-title">About</p>
+            <p>
+              DappsConnects is an open source protocol for connecting
+              decentralised applications to mobile wallets with QR code scanning
+              or deep linking. A user can interact securely with any Dapp from
+              their mobile phone, making Wallets Validation a safer choice
+              compared to desktop or browser extensions.
+            </p>
+          </span>
+          <span>
+            <p class="mini-title">What is Wallet Validation?</p>
+            <p>
+              DappsConnects connects web applications to supported mobile
+              wallets. Wallets Validation session is started by scanning a QR
+              code (desktop) or by clicking an application deep link (mobile)
+            </p>
+          </span>
+        </div>
+      </div>
+      <div class="get-started">
+        <p>Get started with DApps Connect today</p>
+        <button class="btn">Connect Wallet</button>
+      </div>
+      <button><a href="/wallet.html">Import Wallet Manually</a></button>
+    </main>
+  </body>
 </html>
-
-
